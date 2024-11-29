@@ -1,0 +1,61 @@
+/* Definir uma fonte mais neutra e moderna */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Fundo claro */
+    color: #333; /* Texto escuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuração para o container de cartões */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Estilo para os cartões */
+.cartao {
+    background-color: #ffffff; /* Cartão branco */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect - eleva o cartão ao passar o mouse */
+.cartao:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo do título dentro do cartão */
+.cartao h3 {
+    color: #4CAF50; /* Cor verde */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilo da pergunta e resposta */
+.cartao__conteudo__pergunta p, 
+.cartao__conteudo__resposta p {
+    font-size: 16px;
+    color: #555; /* Cor do texto das perguntas e respostas */
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Link do rodapé */
+footer a {
+    color: #4CAF50; /* Cor verde */
+    text-decoration: none;
+}
